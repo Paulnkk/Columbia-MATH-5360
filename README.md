@@ -1,2 +1,4 @@
 # Levy-PDF-and-Alpha-parameter-estimation-from-price-fluctuations-of-Futures-
-I generated pdfs of price fluctuations and associated alpha-parameters for stable non-gaussian distributions
+I generated probability density functions of price fluctuations from Futures (ES and FT) and associated alpha-parameters for stable non-gaussian distributions. The data contains 1-minute prices (CLOH).
+
+The calculations for the estimation of the stability parameters were determined empirically by simulating probabilities for unchanged price fluctuations at a certain time-shift tau (delta_p = 0). The resulting regression and therefore the one dimensional coefficient beta is used to infer the Levy exponent alpha.
